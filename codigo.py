@@ -24,7 +24,7 @@ time.sleep(3)
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.press("enter")
 # pode demorar mais p/ carregar o site
-time.sleep(3)
+time.sleep(2)
 
 # 2 Fazer login
 pyautogui.click(x=464, y=412)
@@ -41,7 +41,7 @@ import pandas as pd
 
 tabela = pd.read_csv("produtos.csv")
 # print(tabela)
-time.sleep(2)
+time.sleep(1)
 
 # 4 Cadastrar um produto
 
